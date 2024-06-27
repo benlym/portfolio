@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+header > h1 {
+  font-size: 2.5rem;
+}
+header > p {
+  font-size: 1.25rem;
+}
+
+section {
+  padding: 20px 0;
+}
+h2 {
+  font-size: 2rem;
+}
+hr {
+  border: none;
+  margin: 10px 0;
+  background-color: #555;
+  /* padding: 2px 0px; */
+  height: 2px;
+}
+
+.project > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.project > h3 {
+  font-size: 1.5rem;
+}
+
+.skills_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill {
+  background-color: #555;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.testimonial_cointainer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.testimonial_cointainer_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.testimonial {
+  background-color: #555;
+  padding: 15px 20px;
+}
+
+.testimonial > h4 {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+}
