@@ -70,6 +70,7 @@ hr {
 .testimonial {
   background-color: #555;
   padding: 15px 20px;
+  max-width:500px;
 }
 
 .testimonial > h4 {
